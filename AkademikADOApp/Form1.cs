@@ -45,6 +45,8 @@ namespace AkademikADOApp
             {
                 conn = new MySqlConnection(connectionString);
                 conn.Close();
+
+                lblStatus.Text = "Status: Database Disconnected";
             }
             catch (Exception ex)
             {
