@@ -28,6 +28,8 @@ namespace AkademikADOApp
             {
                 conn = new MySqlConnection(connectionString);
                 conn.Open();
+
+                lblStatus.Text = "Status: Database Connected";
             }
             catch (Exception ex)
             {
