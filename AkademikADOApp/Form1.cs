@@ -38,5 +38,10 @@ namespace AkademikADOApp
                 MessageBox.Show("Koneksi Gagal", "WARNING" + ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnDisconnect_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
