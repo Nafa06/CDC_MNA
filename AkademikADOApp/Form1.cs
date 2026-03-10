@@ -26,7 +26,8 @@ namespace AkademikADOApp
         {
             try
             {
-
+                conn = new MySqlConnection(connectionString);
+                conn.Open();
             }
             catch (Exception ex)
             {
