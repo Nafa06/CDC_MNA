@@ -35,7 +35,7 @@ namespace AkademikADOApp
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show("Koneksi Gagal", "WARNING" + ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
