@@ -15,6 +15,7 @@ namespace AkademikADOApp
     {
         static string connectionString = string.Format("Server = localhost; database = DBAkademikADO; UID = root; " +
             "Password = 21914113");
+        MySqlConnection conn;
 
         public Form1()
         {
