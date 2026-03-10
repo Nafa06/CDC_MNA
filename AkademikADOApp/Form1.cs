@@ -41,7 +41,14 @@ namespace AkademikADOApp
 
         private void btnDisconnect_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }
