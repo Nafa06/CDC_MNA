@@ -43,7 +43,8 @@ namespace AkademikADOApp
         {
             try
             {
-
+                conn = new MySqlConnection(connectionString);
+                conn.Close();
             }
             catch (Exception ex)
             {
