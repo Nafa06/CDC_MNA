@@ -13,6 +13,9 @@ namespace AkademikADOApp
 {
     public partial class Form1 : Form
     {
+        static string connectionString = string.Format("Server = localhost; database = DBAkademikADO; UID = root; " +
+            "Password = 21914113");
+
         public Form1()
         {
             InitializeComponent();
