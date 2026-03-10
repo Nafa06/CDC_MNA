@@ -47,10 +47,12 @@ namespace AkademikADOApp
                 conn.Close();
 
                 lblStatus.Text = "Status: Database Disconnected";
+
+                MessageBox.Show("Koneksi ke Database Dihentikan", "INFO", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show("Koneksi Gagal Dihentikan, Database: Connected", "WARNING" + ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
